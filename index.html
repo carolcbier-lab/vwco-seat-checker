@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consulta de Mesa • Volkswagen Caminhões</title>
+  <meta name="theme-color" content="#001E50">
+  <style>
+    :root{
+      --azul-escuro:#001E50;
+      --azul-medio:#0A3D91;
+      --azul-destaque:#00A3E0;
+      --cinza-100:#F4F6F8;
+      --cinza-300:#CBD5E1;
+      --cinza-600:#5F6B7A;
+      --branco:#FFFFFF;
+      --shadow-lg: 0 20px 40px rgba(0,0,0,0.25);
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: Arial, Helvetica, sans-serif;
+      color:var(--branco);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(0,163,224,0.18), transparent 60%),
+        radial-gradient(1000px 500px at 110% 10%, rgba(10,61,145,0.22), transparent 60%),
+        linear-gradient(180deg, var(--azul-escuro), #000b29 70%);
+      display:flex; align-items:center; justify-content:center;
+      padding:24px; height:100vh;
+    }
+
+    .card{
+      width:100%; max-width:420px;
+      background:rgba(255,255,255,0.05);
+      border:1px solid rgba(255,255,255,0.12);
+      border-radius:14px;
+      padding:24px;
+      box-shadow:var(--shadow-lg);
+      backdrop-filter:blur(10px);
+    }
+
+    h1{margin:0;font-size:22px;font-weight:700;}
+    .subtitle{font-size:12px;color:#dbeafe;margin-bottom:20px;}
+
+    label{font-size:14px;margin-bottom:6px;display:block;}
+    input{
+      width:100%;padding:14px;font-size:16px;
+      border-radius:10px;border:1px solid var(--cinza-300);
+      color:#0f172a;
+    }
+
+    button{
+      margin-top:14px;width:100%;padding:14px;
+      font-size:16px;font-weight:700;
+      border:none;border-radius:10px;
+      background:linear-gradient(135deg, var(--azul-medio), var(--azul-escuro));
+      color:white;cursor:pointer;
+    }
+    button:hover{filter:brightness(1.1);}
+
+    #resultado{
+      margin-top:18px;padding:14px;
+      border-radius:12px;display:none;
+      border:1px solid rgba(255,255,255,0.18);
+      background:rgba(0,0,0,0.3);
+      font-size:18px;font-weight:700;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>Consulta de Mesa</h1>
+    <p class="subtitle">Volkswagen Caminhões • Acesse pelo celular</p>
+
+    <label for="email">Digite seu e‑mail corporativo</label>
+    <input id="email" type="email" placeholder="nome.sobrenome@volkswagen.com.br" />
+
+    <button onclick="buscarMesa()">🔎 Consultar</button>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script>
+    const DOMINIO = "@volkswagen.com.br";
+    const URL_JSON = "mesas.json";
+
+    let base = null;
+
+    async function carregarBase(){
+      const r = await fetch(URL_JSON, {cache:"no-store"});
+      const dados = await r.json();
+      base = new Map();
+      for(const item of dados.registros){
+        base.set(item.email.toLowerCase(), item.mesa);
+      }
+    }
+
+    function normalizar(v){ return v.toLowerCase().trim(); }
+
+    async function buscarMesa(){
+      if(!base){ await carregarBase(); }
+
+      const email = normalizar(document.getElementById("email").value);
+      const res = document.getElementById("resultado");
+
+      if(!email){
+        res.style.display="block";
+        res.innerHTML = "❌ Digite um e‑mail.";
+        return;
+      }
+
+      if(!email.includes("@")){
+        email = email + DOMINIO;
+      }
+
+      if(base.has(email)){
+        res.style.display="block";
+        res.innerHTML = "✅ Sua mesa é: " + base.get(email);
+      } else {
+        res.style.display="block";
+        res.innerHTML = "❌ E‑mail não encontrado.";
+      }
+    }
+  </script>
+</body>
+</html>

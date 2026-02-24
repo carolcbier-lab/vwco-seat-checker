@@ -1,0 +1,173 @@
+
+{
+  "versao": "1.0",
+  "ultimaAtualizacao": "2026-02-24",
+  "registros": [
+{
+  "mesas": [
+    {
+      "mesa": 1,
+      "total": 11,
+      "participantes": [
+        "Claudio.Costa@volkswagen.com.br",
+        "Eduardo.Santos3@volkswagen.com.br",
+        "Kleber.Munhoz@volkswagen.com.br",
+        "Otavio.Ribeiro@volkswagen.com.br",
+        "Priscila.Scarpa@volkswagen.com.br",
+        "Rodolpho.Velozo@volkswagen.com.br",
+        "elder.silva@volkswagen.com.br",
+        "extern.gabriel.pereira7@volkswagen.com.br",
+        "extern.liciane.santos@volkswagen.com.br",
+        "rogerio.ceschim@volkswagen.com.br",
+        "waldemar.Cunha@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 2,
+      "total": 10,
+      "participantes": [
+        "Adriano.Bras@volkswagen.com.br",
+        "Camille.Bicalho@volkswagen.com.br",
+        "Eduardo.Camacho1@volkswagen.com.br",
+        "Giovanni.Lentulo@volkswagen.com.br",
+        "Mariana.Marchi@volkswagen.com.br",
+        "extern.Dorival.Belintani@volkswagen.com.br",
+        "extern.Marcio.Folco@volkswagen.com.br",
+        "extern.marcus.ribeiro1@volkswagen.com.br",
+        "luiz.gorniack1@volkswagen.com.br",
+        "mayara.costa1@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 3,
+      "total": 10,
+      "participantes": [
+        "Philipe.Souza@volkswagen.com.br",
+        "Rogerio.Ceschim@volkswagen.com.br",
+        "Sara.Prado@volkswagen.com.br",
+        "arthur.narciso@volkswagen.com.br",
+        "cinthia.silva@volkswagen.com.br",
+        "everton.Braga@volkswagen.com.br",
+        "extern.Denilson.Oliveira@volkswagen.com.br",
+        "extern.janete.silva@volkswagen.com.br",
+        "extern.leonardo.kakoi@volkswagen.com.br",
+        "flavio.gadioli@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 4,
+      "total": 10,
+      "participantes": [
+        "Ana.Ribeiro@volkswagen.com.br",
+        "Marcelo.Ferreira4@volkswagen.com.br",
+        "Marcelo.Igreja@volkswagen.com.br",
+        "Marcio.Scudeiro@volkswagen.com.br",
+        "Priscila.Silva2@volkswagen.com.br",
+        "alexander.Kobinger@volkswagen.com.br",
+        "debhora.franca@volkswagen.com.br",
+        "extern.gabriel.matos1@volkswagen.com.br",
+        "extern.gustavo.jose@volkswagen.com.br",
+        "nathalia.santos@volkswagen-groupservices.com"
+      ]
+    },
+    {
+      "mesa": 5,
+      "total": 11,
+      "participantes": [
+        "Evandro.Pretel@volkswagen.com.br",
+        "Ludmyla.Alves@volkswagen.com.br",
+        "Ricardo.Poli@volkswagen.com.br",
+        "Rodrigo.Coelho@volkswagen.com.br",
+        "Vinicius.Orlando@volkswagen.com.br",
+        "adilson.fialho@volkswagen.com.br",
+        "amanda.oliveira2@volkswagen.com.br",
+        "bruno.silva10@volkswagen.com.br",
+        "extern.eric.yamada@volkswagen.com.br",
+        "matheus.amorim@volkswagen.com.br",
+        "nelson.kawaura@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 6,
+      "total": 10,
+      "participantes": [
+        "Ana.Beltrame@volkswagen.com.br",
+        "Guilherme.Meneguese@volkswagen.com.br",
+        "Lucas.Poncheli@volkswagen.com.br",
+        "Matheus.Santos1@volkswagen.com.br",
+        "extern.aline.balieiro1@volkswagen.com.br",
+        "extern.andre.oliveira4@volkswagen.com.br",
+        "extern.marco.oliveira3@volkswagen.com.br",
+        "extern.silvia.suenaga@volkswagen.com.br",
+        "fernando.Mello@volkswagen.com.br",
+        "rafael.relvas@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 7,
+      "total": 10,
+      "participantes": [
+        "Andre.Gomes2@volkswagen.com.br",
+        "Antonio.Arriel@volkswagen.com.br",
+        "Eric.Diogo@volkswagen.com.br",
+        "Luiz.OliveiraJr@volkswagen.com.br",
+        "Rafael.Diniz@volkswagen.com.br",
+        "Thais.Pi@volkswagen.com.br",
+        "Thiago.Menezes1@volkswagen.com.br",
+        "extern.anderson.ferreira4@volkswagen.com.br",
+        "extern.magdiel.castilho@volkswagen.com.br",
+        "extern.thiago.romao@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 8,
+      "total": 10,
+      "participantes": [
+        "Raquel.Soares@volkswagen.com.br",
+        "alline.martho1@volkswagen.com.br",
+        "extern.Douglas.Branco@volkswagen.com.br",
+        "extern.felipe.santos2@volkswagen.com.br",
+        "extern.mateus.pereira1@volkswagen.com.br",
+        "extern.pedro.dutra@volkswagen.com.br",
+        "gustavo.cerqueira@volkswagen.com.br",
+        "juliana.lima@volkswagen.com.br",
+        "priscila.chaga@volkswagen.com.br",
+        "thais.godoy@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 9,
+      "total": 10,
+      "participantes": [
+        "Alexandre.Shimoda@volkswagen.com.br",
+        "Carla.Silva3@volkswagen.com.br",
+        "Leonardo.Scarpeti@volkswagen.com.br",
+        "Marcello.Rodrigues@volkswagen.com.br",
+        "Rodrigo.Borim@volkswagen.com.br",
+        "Severina.Diniz@volkswagen.com.br",
+        "extern.fernando.souza@volkswagen.com.br",
+        "geovanna.pereira@volkswagen.com.br",
+        "leonardo.alves1@volkswagen.com.br",
+        "leonardo.palombo@volkswagen.com.br"
+      ]
+    },
+    {
+      "mesa": 10,
+      "total": 10,
+      "participantes": [
+        "Alan.Ferreira@volkswagen.com.br",
+        "Marco.Marcondes@volkswagen.com.br",
+        "Mauricio.Silva1@volkswagen.com.br",
+        "Newton.Silveira@volkswagen.com.br",
+        "Reginaldo.Silva@volkswagen.com.br",
+        "Ricardo.Silva2@volkswagen.com.br",
+        "extern.alexandre.capelle1@volkswagen.com.br",
+        "extern.ana.longo@volkswagen.com.br",
+        "extern.thiago.cardoso1@volkswagen.com.br",
+        "rogerio.ceschim@volkswagen.com.br"
+      ]
+    }
+  ]
+}
+  ]
+}
