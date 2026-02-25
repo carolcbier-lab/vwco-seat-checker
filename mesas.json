@@ -1,5 +1,5 @@
 {
-  "versao": "1.0",
+  "versao": "2.0",
   "ultimaAtualizacao": "2026-02-24",
   "registros": [
     {"email": "claudio.costa@volkswagen.com.br", "mesa": "Mesa 1"},
@@ -24,6 +24,7 @@
     {"email": "extern.marcus.ribeiro1@volkswagen.com.br", "mesa": "Mesa 2"},
     {"email": "luiz.gorniack1@volkswagen.com.br", "mesa": "Mesa 2"},
     {"email": "mayara.costa1@volkswagen.com.br", "mesa": "Mesa 2"},
+    {"email": "Giovanni.Moschetto@volkswagen.com.br", "mesa": "Mesa 2"},
 
     {"email": "philipe.souza@volkswagen.com.br", "mesa": "Mesa 3"},
     {"email": "rogerio.ceschim@volkswagen.com.br", "mesa": "Mesa 3"},
@@ -69,6 +70,7 @@
     {"email": "extern.silvia.suenaga@volkswagen.com.br", "mesa": "Mesa 6"},
     {"email": "fernando.mello@volkswagen.com.br", "mesa": "Mesa 6"},
     {"email": "rafael.relvas@volkswagen.com.br", "mesa": "Mesa 6"},
+    {"email": "patricia.goulart@volkswagen.com.br", "mesa": "Mesa 6"},
 
     {"email": "andre.gomes2@volkswagen.com.br", "mesa": "Mesa 7"},
     {"email": "antonio.arriel@volkswagen.com.br", "mesa": "Mesa 7"},
@@ -102,7 +104,8 @@
     {"email": "geovanna.pereira@volkswagen.com.br", "mesa": "Mesa 9"},
     {"email": "leonardo.alves1@volkswagen.com.br", "mesa": "Mesa 9"},
     {"email": "leonardo.palombo@volkswagen.com.br", "mesa": "Mesa 9"},
-
+    {"email": "pamella.vieira@volkswagen.com.br", "mesa": "Mesa 9"},
+    
     {"email": "alan.ferreira@volkswagen.com.br", "mesa": "Mesa 10"},
     {"email": "marco.marcondes@volkswagen.com.br", "mesa": "Mesa 10"},
     {"email": "mauricio.silva1@volkswagen.com.br", "mesa": "Mesa 10"},
